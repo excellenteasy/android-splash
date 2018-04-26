@@ -16,7 +16,7 @@
   "author": "David Pfahler <david@excellenteasy.com>",
   "engines": {
     "iojs": "^1",
-    "node": "^0.10",
+    "node": "10",
     "npm": "^2"
   },
   "scripts": {
