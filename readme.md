@@ -1,8 +1,8 @@
 # android-splash 
-[![Build Status](https://travis-ci.org/excellenteasy/android-splash.svg?branch=master)](https://travis-ci.org/excellenteasy/android-splash)
-[![Dependency Status](https://david-dm.org/excellenteasy/android-splash.svg)](https://david-dm.org/excellenteasy/android-splash)
-[![devDependency Status](https://david-dm.org/excellenteasy/android-splash/dev-status.svg)](https://david-dm.org/excellenteasy/android-splash#info=devDependencies)
-[![Semantically Released](https://img.shields.io/badge/versioning-semantically%20released-brightgreen.svg)](https://github.com/boennemann/semantic-release)
+[![Build Status](https://travis-ci.com/randytarampi/android-splash.svg?branch=master)](https://travis-ci.com/randytarampi/android-splash)
+[![Dependency Status](https://david-dm.org/randytarampi/android-splash.svg)](https://david-dm.org/randytarampi/android-splash)
+[![devDependency Status](https://david-dm.org/randytarampi/android-splash/dev-status.svg)](https://david-dm.org/randytarampi/android-splash#info=devDependencies)
+[![Semantically Released](https://img.shields.io/badge/versioning-semantically%20released-brightgreen.svg)](https://github.com/boennemann/semantic-release) 
 
 > Get android splash screen files names and dimensions
 
@@ -12,14 +12,14 @@ The default splash screen image file names and required sizes for android are li
 ## Install
 
 ```sh
-$ npm install --save android-splash
+$ npm install --save @randy.tarampi/android-splash
 ```
 
 
 ## Usage
 
 ```js
-var splash = require('android-splash');
+var splash = require('@randy.tarampi/android-splash');
 
 splash();
 //=> [{"name":"GooglePlayFeature.png","width":1024,"height":500}, ...]
@@ -36,7 +36,7 @@ Returns an array of splash screen images, each image being represented by an obj
 > android-splash logs to stdout in comma-separated values format (csv) by default so you can easy pipe to other commands in UNIX systems.
 
 ```sh
-$ npm install --global android-splash
+$ npm install --global @randy.tarampi/android-splash
 ```
 
 ```sh
